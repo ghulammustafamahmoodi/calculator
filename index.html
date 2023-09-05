@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Calculator</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+          <input type="text" id="output" disabled>
+          <div>
+               <div class="row">
+                    <input type="button" value="AC" id="btnop" onclick="rest()" class="a">
+                    <input type="button" value="/"  id="btnop" onclick="addToutput(value)" class="a">
+                    <input type="button" value="%"  id="btnop" onclick="addToutput(value)" class="a">
+                    <input type="button" value="c"  id="btn1_C"  onclick="clear()" class="a">
+               </div>
+               <div class="row">
+                    <input type="button" value="1" id="btnnumber"  onclick="addToutput(value)" class="a">
+                    <input type="button" value="2" id="btnnumber" onclick="addToutput(value)" class="a">
+                    <input type="button" value="3"  id="btnnumber" onclick="addToutput(value)" class="a">
+                    <input type="button" value="+" id="btn1" onclick="addToutput(value)" class="a">
+              </div>
+               <div class="row">
+                    <input type="button" value="4"  id="btnnumber" onclick="addToutput(value)" class="a">
+                    <input type="button" value="5"  id="btnnumber" onclick="addToutput(value)" class="a">
+                    <input type="button" value="6" id="btnnumber"  onclick="addToutput(value)" class="a">
+                    <input type="button" value="-" id="btn1"  onclick="addToutput(value)" class="a">
+               </div>
+               <div class="row">
+                    <input type="button" value="7" id="btnnumber"  onclick="addToutput(value)" class="a">
+                    <input type="button" value="8" id="btnnumber"  onclick="addToutput(value)" class="a">
+                    <input type="button" value="9" id="btnnumber" onclick="addToutput(value)" class="a">
+                    <input type="button" value="*" id="btn1"  onclick="addToutput(value)" class="a">
+               </div>
+               <div class="row">
+                    <input type="button" value="0"   id="btnnumber" name="btn0" onclick="addToutput(value)" class="a">
+                    <input type="button" value="."  id="btnnumber" id="btn" onclick="addToutput(value)" class="a">
+                    <input type="button" value="=" id="btn1"  onclick="equal()" >
+                    <!-- <input type="button" value="**" id="j" onclick="addToutput(value)"> -->
+               </div>
+          </div>
+          <div class="line"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+  
